@@ -1,8 +1,11 @@
 // const request = require("request");
 // const forecast = (latitude, longitude, callback) => {
 //   const url =
-//     "http://api.weatherstack.com/current?access_key=d1168baaa198d27285181f407e1ece98&query=37.8267,-122.4233";
-
+//     "http://api.weatherstack.com/current?access_key=d1168baaa198d27285181f407e1ece98&query=" +
+//     latitude +
+//     "," +
+//     longitude +
+//     "&units=f";
 //   request({ url, json: true }, (error, { body }) => {
 //     if (error) {
 //       callback("Unable to connect to weather service!", undefined);
